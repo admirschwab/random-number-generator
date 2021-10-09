@@ -1,0 +1,32 @@
+<html lang="de">
+
+<head>
+        
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <title>Deine Zufallszahl</title>
+
+        <script src="./js/index.js"></script>
+</head>
+
+                <div style="font-family: arial; background-color: gray; position: absolute; height: 99%; width: 99.5%; outline: 8px solid gray;">
+
+                <a style="font-family: arial;" id="deineZahl">Bitte Drücke einen Button um eine Zahl zu generieren</a> <a style="font-family: arial;" id="output"></a><br><br>
+
+
+        <input onclick="zehn()" type="radio" id="zehn" name="gender" value="zehn">
+        <label for="zehn">Zwischen 1 und 10</label><br>
+
+        <input onclick="hundert()" type="radio" id="hundert" name="gender" value="hundert">
+        <label for="hundert">Zwischen 1 und 100</label><br>
+
+        <input onclick="tausend()" type="radio" id="tausend" name="gender" value="tausend">
+        <label for="tausend">Zwischen 1 und 1000</label>
+
+
+                <p id="output" style="font-family: arial;"></p>
+
+</div>
+
+</html>
